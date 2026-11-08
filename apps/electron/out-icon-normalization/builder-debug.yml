@@ -1,0 +1,42 @@
+arm64:
+  firstOrDefaultFilePatterns:
+    - '!**/node_modules'
+    - '!resources{,/**/*}'
+    - '!out-icon-normalization{,/**/*}'
+    - dist/**/*
+    - '!dist/resources/**'
+    - dist/resources/icon.png
+    - package.json
+    - node_modules/**/*
+    - '!node_modules/@snap/**'
+    - '!node_modules/electron/**'
+    - '!node_modules/electron-builder/**'
+    - '!node_modules/electronmon/**'
+    - '!node_modules/@electron/**'
+    - '!node_modules/@electron-builder/**'
+    - '!node_modules/@earendil-works/*/examples/**'
+    - '!node_modules/@earendil-works/*/docs/**'
+    - '!node_modules/@earendil-works/**/*.map'
+    - '!**/*.{iml,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,suo,xproj,cc,d.ts,mk,a,o,forge-meta,pdb}'
+    - '!**/._*'
+    - '!**/electron-builder.{yaml,yml,json,json5,toml,ts}'
+    - '!**/{.git,.hg,.svn,CVS,RCS,SCCS,__pycache__,.DS_Store,thumbs.db,.gitignore,.gitkeep,.gitattributes,.npmignore,.idea,.vs,.flowconfig,.jshintrc,.eslintrc,.circleci,.yarn-integrity,.yarn-metadata.json,yarn-error.log,yarn.lock,package-lock.json,npm-debug.log,appveyor.yml,.travis.yml,circle.yml,.nyc_output,.husky,.github,electron-builder.env}'
+    - '!.yarn{,/**/*}'
+    - '!.editorconfig'
+    - '!.yarnrc.yml'
+  nodeModuleFilePatterns:
+    - '**/*'
+    - dist/**/*
+    - '!dist/resources/**'
+    - dist/resources/icon.png
+    - package.json
+    - node_modules/**/*
+    - '!node_modules/@snap/**'
+    - '!node_modules/electron/**'
+    - '!node_modules/electron-builder/**'
+    - '!node_modules/electronmon/**'
+    - '!node_modules/@electron/**'
+    - '!node_modules/@electron-builder/**'
+    - '!node_modules/@earendil-works/*/examples/**'
+    - '!node_modules/@earendil-works/*/docs/**'
+    - '!node_modules/@earendil-works/**/*.map'

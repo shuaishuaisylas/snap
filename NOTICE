@@ -1,15 +1,25 @@
-Snap website
+Snap desktop application and website
 
-This repository contains the Snap product landing page and local demonstration recordings.
-Snap is based on the upstream Proma desktop application by ErlichLiu and contributors.
-Upstream project: https://github.com/proma-ai/Proma
-Upstream website: https://proma.cool/
+Original desktop application: Copyright © 2024-2026 Erlich Liu and contributors.
+Original upstream source repository identifier: GitHub repository 1146471921.
+Repository metadata: https://api.github.com/repositories/1146471921
 
-Visual design follows the style specification supplied for this Snap website.
-Typography: Inter, distributed under the SIL Open Font License; see assets/fonts/LICENSE-Inter.txt.
-The supplied Snap brand mark is retained as the product identity.
+Snap is a modified version, maintained by Sylas. It is not represented as wholly original work.
+Modifications dated 2026-11-08 include the independent Snap application identity,
+separate data directories, trace explanations, product customization, and a plain startup screen.
+The original copyright and AGPL-3.0 terms remain in force. See LICENSE.
+Corresponding source for this release is published at https://github.com/shuaishuaisylas/snap .
 
-The upstream AGPL-3.0 license text is preserved in LICENSE.
-The source recordings were captured before the product was renamed to Snap.
-Brand text in the published videos and posters has been updated from Fip to Snap in post-production; recorded operations and task flows are retained.
-The original MOV recordings are preserved. The published media is edited demonstration footage, not unmodified captures of the current Snap release.
+Included third-party software and Skills retain their own copyright notices and licenses.
+OfficeCLI v1.0.145 is distributed under Apache-2.0; see third-party-licenses/OfficeCLI-LICENSE.txt.
+Official corresponding source: https://github.com/iOfficeAI/OfficeCLI/tree/v1.0.145 .
+The presentation Skill includes its MIT license; the Skill-authoring tool includes its Apache-2.0 license.
+Four third-party document Skills that do not grant redistribution rights are not distributed.
+
+The supplied blue Snap mark is the product identity.
+Website typography uses Inter under the SIL Open Font License (assets/fonts/LICENSE-Inter.txt).
+Website demonstration recordings were captured before the current application release.
+Brand text was updated to Snap in post-production; recorded operations were retained.
+The published media is edited demonstration footage, not unmodified captures of this release.
+
+This software is provided without warranty, subject to LICENSE.

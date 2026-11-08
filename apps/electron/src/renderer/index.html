@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snap</title>
+    <script>
+      // React 挂载前只应用普通主题，旧特殊风格回到跟随系统。
+      ;(function() {
+        var mode = 'dark'
+        try {
+          var cached = localStorage.getItem('snap-theme-mode')
+          mode = cached === 'special' ? 'system' :
+            (cached === 'light' || cached === 'dark' || cached === 'system' ? cached : 'dark')
+          localStorage.setItem('snap-theme-mode', mode)
+          localStorage.removeItem('snap-theme-style')
+        } catch (_) { /* 存储不可用时使用默认主题 */ }
+        var isDark = mode === 'dark' ||
+          (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        document.documentElement.classList.toggle('dark', isDark)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "source": "snap-source.jpg",
+  "sourceSha256": "c6c4a2ebe311bcb5e78d7221a2f734a5f95eea023d059e3b3a5f8b46ca9177cc",
+  "originalDimensions": {
+    "width": 1125,
+    "height": 1217
+  },
+  "blueMarkBounds": {
+    "left": 311,
+    "top": 324,
+    "right": 813,
+    "bottom": 874
+  },
+  "crop": {
+    "left": 199,
+    "top": 236,
+    "width": 727,
+    "height": 727
+  },
+  "outputDimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "macOSCanvas": {
+    "size": 1024,
+    "contentSize": 824,
+    "transparentInset": 100
+  },
+  "processing": "原图像素裁去外围空白、等比缩放、外框圆角；macOS PNG / ICNS 使用 824px 底板与四边 100px 透明边距。蓝色手势不重绘；网页、应用内标志与 Windows 图标保留原尺寸。托盘按同轮廓生成系统单色模板。"
+}
